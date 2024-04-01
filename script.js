@@ -22,9 +22,9 @@ class Employee extends Person{
 // Do not change code below this line
 // const car = new SportsCar("Ferrari", "Testarossa", 200);
 // const two = new Car("suite", "bmw");
-let name = new Person("Alice", 25);
-let two = new Employee("Bob", 30, "Manager");
-two.jobGreet();
-name.greet();
+let alice = new Person("Alice", 25);
+let bob = new Employee("Bob", 30, "Manager");
+bob.jobGreet();
+alice.greet();
 window.Person = Person;
 window.Employee = Employee;
